@@ -1,14 +1,48 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "tenant": "f6c10f46-27cf-4550-8b9f-c3a5c72a96cf",
+    "contact": "f6c10f46-27cf-4550-8b9f-c3a5c72a96cf",
+    "templates": [
+        {
+            "name": "teste matheus",
+            "components": {
+                "type": "HEADER",
+                "format": "TEXT",
+                "text": "teste",
+                "buttons": [
+                    {
+                        "type": "URL",
+                        "text": "teste botão",
+                        "url": "www.teste.com",
+                        "phone_number": "11222112212",
+                        "example": "teste"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "teste luisa",
+            "components": {
+                "type": "HEADER",
+                "format": "TEXT",
+                "text": "teste 2",
+                "buttons": [
+                    {
+                        "type": "URL",
+                        "text": "teste2 botão",
+                        "url": "www.teste2.com",
+                        "phone_number": "2222222222",
+                        "example": "teste 2"
+                    }
+                ]
+            }
+        }
+    ],
+    "example": {
+        "header_text": "",
+        "body_text": "",
+        "header_url": "",
+        "header_handle": ""
+    },
+    "language": "PT-BR",
+    "category": "MARKETING"
 }
