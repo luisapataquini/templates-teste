@@ -1,6 +1,4 @@
 {
-    "tenant": "f6c10f46-27cf-4550-8b9f-c3a5c72a96cf",
-    "contact": "f6c10f46-27cf-4550-8b9f-c3a5c72a96cf",
     "templates": [
         {
             "name": "teste matheus",
@@ -36,13 +34,5 @@
                 ]
             }
         }
-    ],
-    "example": {
-        "header_text": "",
-        "body_text": "",
-        "header_url": "",
-        "header_handle": ""
-    },
-    "language": "PT-BR",
-    "category": "MARKETING"
+    ]
 }
